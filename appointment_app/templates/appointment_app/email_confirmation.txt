@@ -1,0 +1,10 @@
+Appointment Confirmation
+
+Dear {{ appointment.name }},
+
+Your appointment has been confirmed. Here are the details:
+Name: {{ appointment.name }}
+Email: {{ appointment.email }}
+Date and Time: {{ appointment.date_time }}
+
+Thank you.
